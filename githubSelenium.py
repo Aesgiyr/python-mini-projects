@@ -1,11 +1,13 @@
-from selenium.webdriver.common.by import By # Bunu mutlaka importla
+from selenium.webdriver.common.by import By 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+
 username=input("Username: ")
 password=input("Password: ")
 driver = webdriver.Safari()
 url = "https://github.com"
+
 driver.get(url)
 time.sleep(1)
 driver.maximize_window()
