@@ -42,5 +42,5 @@ while True:
             for r in result["results"]:
                 print(r['original_title'])
         else:
-            print("Yanlış tuşlama tekrar tuşlayınız")
+            print("Please enter valid value")
             continue
